@@ -1,0 +1,59 @@
+[paths]
+[paths.system]
+home = [
+  [".zshrc", ".zshrc"]
+]
+
+[paths.secure_system]
+root = [
+  ["fstab", "/etc/fstab"]
+]
+
+[paths.special_system]
+root = [
+  ["firefox", "/usr/lib/firefox"]
+]
+
+[aliases]
+"[drive]" = "mnt/SecDrive"
+
+[install]
+paru = [
+  "code",
+  "flatpak",
+  "mpd-discord-rpc",
+  "neovim",
+  "vesktop-bin",
+  "xdg-desktop-portal",
+  "xdg-desktop-portal-hyprland",
+  "eww",
+  "obs-studio",
+  "wev",
+  "noto-fonts",
+  "syncthing",
+  "ranger",
+  "swww-git",
+  "dart-sass",
+  "thunderbird",
+  "npm",
+  "btop",
+  "wf-recorder",
+  "gimp",
+  "jq"
+]
+flatpak = [
+  "com.sindresorhus.Caprine"
+]
+
+vsc = [
+  "aaron-bond.better-comments",
+  "bungcip.better-toml",
+  "catppuccin.catppuccin-vsc",
+  "catppuccin.catppuccin-vsc-icons",
+  "esbenp.prettier-vscode",
+  "rust-lang.rust-analyzer",
+  "ritwickdey.liveserver",
+  "formulahendry.auto-close-tag",
+  "abusaidm.html-snippets",
+  "html-validate.vscode-html-validate",
+]
